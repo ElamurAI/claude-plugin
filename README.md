@@ -12,7 +12,7 @@ Mova is a small, transparent language model written in Rust. It reads English te
 
 ## The tool
 
-One tool, `elamur`, takes a command and the text: `mova parse <text>`, `mova explain <sentence>`, `help`. Answers are Markdown by default; `format` can be `json`, `jsonl`, `yaml` or `conllu`.
+One tool, `elamur`, takes a command and the text: `mova parse <text>`, `help`. Answers are Markdown by default; `format` can be `json`, `jsonl`, `yaml` or `conllu`.
 
 ## Install
 

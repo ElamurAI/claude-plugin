@@ -12,7 +12,6 @@ The Elamur MCP server (`elamur`, at https://ai.mcp.elamur.ai) runs Mova, a small
 Call the `elamur` tool with one string, `command`: a command, then the text.
 
 - `mova parse <text>` — the whole reading of a text: per sentence the language, dialect and style; the tokens with lemma, part of speech, features, head and relation; the tree; the frames; the pragmatics with its cues, implicatures and presuppositions.
-- `mova explain <sentence>` — one sentence, explained step by step.
 - `help` — the list of commands; `mova help` — Mova's commands.
 
 The command is matched leniently (case, an optional leading "elamur", small typos). Everything after the command is the text, as it is — no quoting.
@@ -30,6 +29,6 @@ Optional arguments: `format` = `md` (default), `json`, `jsonl`, `yaml` or `conll
 
 - "Is «Can you pass the salt?» a question or a request?" → `mova parse Can you pass the salt?`, then report the speech act and its directness.
 - "Draw the dependency tree of this sentence in CoNLL-U" → `mova parse <sentence>` with `format: "conllu"`.
-- "What does «Some students passed» imply?" → `mova explain Some students passed.` and report the scalar implicature.
+- "What does «Some students passed» imply?" → `mova parse Some students passed.` and report the scalar implicature.
 
 Terms of use: https://elamur.ai/terms/ · Privacy: https://elamur.ai/privacy/
