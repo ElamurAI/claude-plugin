@@ -1,0 +1,23 @@
+{
+  "name": "elamur",
+  "displayName": "Elamur",
+  "version": "0.6.0",
+  "description": "Mova, the Elamur language model: dependency trees, frames and pragmatics of any English text — speech acts, politeness, implicatures, irony — through the Elamur MCP server.",
+  "author": {
+    "name": "The Elamur team",
+    "url": "https://elamur.ai/"
+  },
+  "homepage": "https://mcp.elamur.ai/",
+  "repository": "https://github.com/ElamurAI/claude-plugin",
+  "license": "LicenseRef-Elamur-Cosmic",
+  "keywords": [
+    "linguistics",
+    "parsing",
+    "dependency-trees",
+    "pragmatics",
+    "nlp",
+    "mova"
+  ],
+  "privacyPolicyUrl": "https://elamur.ai/privacy/",
+  "icon": ".claude-plugin/icon.png"
+}

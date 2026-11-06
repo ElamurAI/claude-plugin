@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "elamur": {
+      "type": "http",
+      "url": "https://ai.mcp.elamur.ai"
+    }
+  }
+}

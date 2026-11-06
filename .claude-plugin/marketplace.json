@@ -1,0 +1,15 @@
+{
+  "description": "Elamur plugins for Claude: Mova's dependency trees, frames and pragmatics.",
+  "name": "elamur",
+  "owner": {
+    "name": "The Elamur team",
+    "url": "https://elamur.ai/"
+  },
+  "plugins": [
+    {
+      "name": "elamur",
+      "source": "./",
+      "description": "Mova's dependency trees, frames and pragmatics through the Elamur MCP server."
+    }
+  ]
+}
