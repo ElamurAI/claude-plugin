@@ -2,7 +2,7 @@
   "name": "elamur",
   "displayName": "Elamur",
   "version": "0.6.0",
-  "description": "Mova, the Elamur language model: dependency trees, frames and pragmatics of any English text — speech acts, politeness, implicatures, irony — through the Elamur MCP server.",
+  "description": "Elamur for Claude: the Elamur MCP server and its services. Today Mova, the Elamur language model — dependency trees, frames and pragmatics of English text (speech acts, politeness, implicatures, irony); more Elamur services, such as translation, join as they open.",
   "author": {
     "name": "The Elamur team",
     "url": "https://elamur.ai/"

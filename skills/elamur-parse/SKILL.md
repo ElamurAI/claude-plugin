@@ -1,6 +1,6 @@
 ---
 name: elamur-parse
-description: Read English text with Mova, the Elamur language model, through the Elamur MCP server — dependency trees (Universal Dependencies), frames (who did what to whom), and pragmatics (speech act, directness, hedging, politeness, implicatures, presuppositions, irony candidates), plus the language, dialect and style of every sentence. Use when the user asks how a sentence is built, what it does or implies, whether it is a request, a question or irony, or wants a parse in Markdown, JSON, JSONL, YAML or CoNLL-U.
+description: Use the Elamur MCP server (today: Mova). Read English text with Mova, the Elamur language model, through the Elamur MCP server — dependency trees (Universal Dependencies), frames (who did what to whom), and pragmatics (speech act, directness, hedging, politeness, implicatures, presuppositions, irony candidates), plus the language, dialect and style of every sentence. Use when the user asks how a sentence is built, what it does or implies, whether it is a request, a question or irony, or wants a parse in Markdown, JSON, JSONL, YAML or CoNLL-U.
 ---
 
 # Reading text with Mova

@@ -1,6 +1,6 @@
 # Elamur for Claude
 
-This plugin connects Claude to **Mova**, the Elamur language model, through the Elamur MCP server at `https://ai.mcp.elamur.ai`.
+This plugin connects Claude to **Elamur** through the Elamur MCP server at `https://ai.mcp.elamur.ai`: one server, one tool, many services, each a command. Today it carries **Mova**, the Elamur language model; more Elamur services, such as translation, join the same server as they open, and the plugin needs no change to use them (`help` lists what is there).
 
 Mova is a small, transparent language model written in Rust. It reads English text into dependency trees (Universal Dependencies), frames — who did what to whom — and pragmatics: the speech act of every sentence, how direct it is, hedging and politeness, implicatures, presuppositions and irony candidates. It also tells the language, dialect and style of each sentence. Every step is deterministic and can say why.
 
@@ -26,4 +26,4 @@ The texts you send are processed on Elamur's servers to answer you and are kept 
 
 ## Licence
 
-The plugin is under the Elamur Cosmic License (`LICENSE.md`). Its icon, Mova's octopus, is ours under CC BY-SA 4.0. Mova's code is open at https://github.com/ElamurAI/mova-free.
+The plugin is under the Elamur Cosmic License (`LICENSE.md`). Its icon, the Elamur eye, is ours. Mova's code is open at https://github.com/ElamurAI/mova-free.
